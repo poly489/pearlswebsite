@@ -1,0 +1,122 @@
+body{
+  background-image: url('bluebg.jpeg');
+  background-size: 50% 50%;
+}
+.vertical {
+  border-left: 2px solid rgb(255, 255, 255);
+  padding-left:180px;
+  height: 100px;
+  position:fixed;
+  top: 0;
+}
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 120px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #c1d6f1f7; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-style:italic;
+    font-size: 20px;
+    color: #e98989;
+    display: block;
+
+  }
+
+  .sidenav a:hover {
+    text-decoration:underline;
+    color: hotpink;
+  }
+  
+  /* Style page content */
+  .main {
+     /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .header {
+    max-width:688px;
+    margin-left: 160px;
+    text-align:left;
+    text-decoration-color:rgb(255, 58, 58);
+  }
+  
+  #container{
+    margin-left: 160px;
+    color:#000000;
+    font-family:Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    max-width:688px;
+  }
+
+
+h1{    color:rgb(242, 129, 165);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(terminal-grotesque.ttf);
+    font-size: 50px;
+  }
+
+.paragraph{
+    display: grid;
+    font-family:helvetica;
+    color:#000000;
+    grid-template-columns: 99%, 1%;
+    grid-column-gap:20px;
+}
+  
+.image-container{
+  height:10px;
+
+}
+
+  div {
+    font-family: myFirstFont;
+  }
+
+
+.subtitle{
+    margin-left: 160px;
+    color:#ff84b9;
+}
+
+ /* unvisited link */
+ a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+  
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(113, 113, 113);
+  text-decoration:solid;
+} 
